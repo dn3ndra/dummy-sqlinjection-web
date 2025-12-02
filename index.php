@@ -1,0 +1,20 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<title>SECULAB LOGIN</title>
+<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+<div class='container'>
+<h2>SECULAB LOGIN PORTAL</h2>
+<form action='login.php' method='POST'>
+<input type='text' name='username' placeholder='Username'><br>
+<input type='password' name='password' placeholder='Password'><br>
+<button type='submit'>Login</button>
+</form>
+</div>
+</body>
+</html>
